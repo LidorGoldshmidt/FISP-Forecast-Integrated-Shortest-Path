@@ -1,4 +1,4 @@
-FISP: Forecast-Integrated Shortest-Path Framework
+# FISP: Forecast-Integrated Shortest-Path Framework
 MATLAB Implementation for Load Forecasting, Storage Operation, and Penalty Evaluation
 
 This repository contains the full MATLAB implementation used in the paper:
@@ -22,7 +22,7 @@ FISP-Forecast-Integrated-Shortest-Path/
     └── Italy_Data/
            └── *.csv    (2015–2024 load data)
 
-Folder Descriptions
+# Folder Descriptions
 📁 code/
 
 This folder contains all MATLAB scripts required to construct datasets, train forecasting models, run the FISP optimization, compute penalties, and generate figures.
@@ -121,7 +121,7 @@ Run:
 UpdatedCode
 
 
-Optional steps:
+# Optional steps:
 
 Run FISP_LSTM_experiment.m in Experiment Manager to perform hyperparameter search
 
@@ -129,7 +129,7 @@ Run armaUpdated.m to re-train ARMA models
 
 Modify storage capacities, α-weights, or seasonal datasets as needed
 
-Main Features
+# Main Features
 
 ✔ Integrated forecasting + optimization pipeline
 ✔ LSTM forecasting with hyperparameter search
@@ -139,6 +139,6 @@ Main Features
 ✔ Support for multiple seasons and countries
 ✔ Reproducible figures for the paper
 
-Citation
+# Citation
 
 If you use this repository, please cite the accompanying paper (details to be added upon publication).

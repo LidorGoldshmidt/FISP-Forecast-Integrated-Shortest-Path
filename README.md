@@ -2,7 +2,7 @@ FISP: Forecast-Integrated Shortest-Path Framework
 MATLAB Implementation for Load Forecasting, Storage Operation, and Penalty Evaluation
 
 This repository contains the full MATLAB implementation used in the paper:
-“Forecast-Integrated Shortest-Path (FISP): Evaluating Storage-Based Peak Shaving Under Load Uncertainty.”
+“Measuring Peak Shaving Efficiency of Energy Storage Device Under Load Uncertainty With Machine Learning Based Forecasting Techniques”
 
 The project integrates time-series forecasting models (LSTM, ARMA) with the Shortest-Path (SP) peak-shaving algorithm, and evaluates how forecast error affects operational performance using a weighted penalty metric.
 

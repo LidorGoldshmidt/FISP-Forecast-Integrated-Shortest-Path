@@ -53,13 +53,13 @@ armaUpdated.m
 Trains ARMA models for each season.
 Includes:
 
-Grid search over multiple ARMA(p, q) configurations
+* Grid search over multiple ARMA(p, q) configurations
 
-Parameter estimation for each candidate model
+* Parameter estimation for each candidate model
 
-Selection of the best order based on validation MAE
+* Selection of the best order based on validation MAE
 
-Final retraining and generation of ARMA day-ahead forecasts
+* Final retraining and generation of ARMA day-ahead forecasts
 
 FISP_LSTM_experiment.m
 
@@ -70,13 +70,13 @@ Extract_Experiment_Results.m
 
 Processes the output of the LSTM Experiment Manager:
 
-Sorts trials
+* Sorts trials
 
-Identifies the best model
+* Identifies the best model
 
-Extracts hyperparameters
+* Extracts hyperparameters
 
-Saves them for the final training stage
+* Saves them for the final training stage
 
 FISP_epochProgress.m
 
@@ -96,15 +96,15 @@ CSV files for years 2015–2024, filtered to winter weekdays.
 
 Each CSV includes:
 
-Time stamps
+* Time stamps
 
-Actual load (MW)
+* Actual load (MW)
 
-Metadata columns, depending on the country dataset source
+* Metadata 
 
 These files are loaded automatically by UpdatedCode.m.
 
-Running the Project
+## Running the Project
 
 To reproduce results:
 
@@ -121,13 +121,13 @@ Run:
 UpdatedCode
 
 
-## Optional steps:
+Optional steps:
 
-Run FISP_LSTM_experiment.m in Experiment Manager to perform hyperparameter search
+* Run FISP_LSTM_experiment.m in Experiment Manager to perform hyperparameter search
 
-Run armaUpdated.m to re-train ARMA models
+* Run armaUpdated.m to re-train ARMA models
 
-Modify storage capacities, α-weights, or seasonal datasets as needed
+* Modify storage capacities, α-weights, or seasonal datasets as needed
 
 ## Main Features
 

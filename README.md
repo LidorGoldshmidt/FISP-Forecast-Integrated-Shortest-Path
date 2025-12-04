@@ -32,19 +32,19 @@ UpdatedCode.m
 The main script of the project.
 It includes:
 
-Data loading and preprocessing (from the raw CSV files)
+* Data loading and preprocessing (from the raw CSV files)
 
-Construction of seasonal training/validation/testing datasets
+* Construction of seasonal training/validation/testing datasets
 
-Implementation of the Shortest-Path algorithm
+* Implementation of the Shortest-Path algorithm
 
-Definition of the weighted penalty metric
+* Definition of the weighted penalty metric
 
-Running the FISP pipeline on Actual, LSTM, and ARMA forecasts
+* Running the FISP pipeline on Actual, LSTM, and ARMA forecasts
 
-Plotting functions and result visualization
+* Plotting functions and result visualization
 
-Invocation of the Experiment Manager for LSTM hyperparameter tuning
+* Invocation of the Experiment Manager for LSTM hyperparameter tuning
 
 This file orchestrates the full pipeline end-to-end.
 

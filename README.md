@@ -6,7 +6,7 @@ This repository contains the full MATLAB implementation used in the paper:
 
 The project integrates time-series forecasting models (LSTM, ARMA) with the Shortest-Path (SP) peak-shaving algorithm, and evaluates how forecast error affects operational performance using a weighted penalty metric.
 
-Repository Structure
+# Repository Structure
 FISP-Forecast-Integrated-Shortest-Path/
 │
 ├── code/
